@@ -10,6 +10,11 @@
  src: url(Creattion\ Demo.otf);
 }
 
+:root{
+ font-family: 'Work Sans',
+ sans-serif;
+}
+
 body {
  height: 100vh;
 }
@@ -21,6 +26,20 @@ img {
 .head_img {
  display: flex;
  height: fit-content;
+}
+
+
+.fa-bars{
+ color: rgb(255, 255, 255);
+ background: rgb(49, 49, 49);
+ padding: 5px;
+ width: fit-content;
+ height: fit-content;
+ border-radius: 20px;
+ position: absolute;
+ z-index: 1;
+ top: 200px;
+ right: 35px;
 }
 
 .greenBg {
@@ -41,7 +60,7 @@ img {
 .title {
  height: 100%;
  color: #c0762c;
- margin: 35px 0;
+ margin: 35px 20px;
  display: flex;
  flex-direction: column;
  justify-content: flex-end;
@@ -51,8 +70,8 @@ img {
 .title_head {
  text-align: start;
  text-transform: uppercase;
- font-family: 'Viaoda Libre',
-  cursive;
+ font-family: 'Work Sans',
+ sans-serif;
  letter-spacing: .9px;
  font-weight: lighter;
  font-size: 15px;
@@ -79,7 +98,6 @@ img.first_img {
  justify-content: center;
  align-items: center;
  background-image: url("image/intro_bg03.jpg");
- background-color: grey;
  background-repeat: no-repeat;
  background-size: 100% 100%;
  padding: 10px;
@@ -600,17 +618,17 @@ li:nth-child(even) .timeline_content {
  width: 250px;
  height: 100%;
  display: flex;
- justify-content: space-around;
- align-items: center;
+ justify-content: space-evenly;
+ align-items: space-evenly;
 }
 
 .mark_img {
  position: relative;
- height: 100%;
  width: 100%;
  background-image: url("image/mark-s10-e1615030452327.png");
  background-repeat: no-repeat;
  background-size: 100%;
+ transform: scale(60%);
  display: flex;
  justify-content: center;
  align-items: center;
@@ -618,7 +636,7 @@ li:nth-child(even) .timeline_content {
 
 .mark img:last-child {
  position: absolute;
- width: 250px;
+ width: 45vw;
  right: 5px;
  top: 70px;
  float: right;
@@ -627,6 +645,6 @@ li:nth-child(even) .timeline_content {
 .mark_text {
  text-align: center;
  position: relative;
- font-size: 30px;
+ font-size: 25px;
  color: rgb(149, 135, 59);
 }
