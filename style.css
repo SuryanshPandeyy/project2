@@ -523,10 +523,10 @@ li:nth-child(even) .timeline_content {
 
 .last_img {
  position: relative;
- background-image: url(image/rsvp_bg03.jpg);
+ background-image: url("image/rsvp_bg03.jpg");
  background-repeat: no-repeat;
  background-size: 100% 100%;
- height: 100vh;
+ height: 100%;
  width: 100%;
  top: -460px;
  z-index: -1;
