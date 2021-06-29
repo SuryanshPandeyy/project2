@@ -20,18 +20,15 @@ img {
 
 .head_img {
  display: flex;
- min-height: 50vh;
- width: 100%;
- flex-direction: row;
+ height: fit-content;
 }
 
 .greenBg {
+ width: 50vw;
+ max-width: 50vw;
  display: flex;
  flex-direction: column;
  background-color: rgb(41, 72, 49);
- min-width: 250px;
- max-width: 50vw;
- width: 100vw;
 }
 
 .greenBg img {
@@ -44,7 +41,7 @@ img {
 .title {
  height: 100%;
  color: #c0762c;
- margin: 35px;
+ margin: 35px 0;
  display: flex;
  flex-direction: column;
  justify-content: flex-end;
@@ -58,16 +55,17 @@ img {
   cursive;
  letter-spacing: .9px;
  font-weight: lighter;
- font-size: 20px;
+ font-size: 15px;
 }
 
 .sign {
  font-family: sign;
- font-size: 6vw;
+ font-size: 5vw;
 }
 
 img.first_img {
  height: 50vh;
+ width: 50vw;
 }
 
 @media only screen and (min-width: 780px) {
@@ -82,6 +80,7 @@ img.first_img {
  align-items: center;
  background-image: url("image/intro_bg03.jpg");
  background-color: grey;
+ background-repeat: no-repeat;
  background-size: 100% 100%;
  padding: 10px;
 }
@@ -121,7 +120,7 @@ img.first_img {
 }
 
 .date {
- margin: 10px;
+ margin: 10px 0;
 }
 
 .date p:first-child {
@@ -232,7 +231,6 @@ img.first_img {
 }
 
 .wedding_timeline {
- width: 100%;
  text-align: center;
  margin: 150px 0 100px 0;
  display: flex;
@@ -259,7 +257,6 @@ img.first_img {
 
 .container {
  position: relative;
- width: 100%;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -344,12 +341,12 @@ li:nth-child(even) .timeline_content {
 
 .timeline ul li:nth-child(odd) {
  float: left;
- transform: translate(-30px);
+ transform: translate(-20px);
 }
 
 .timeline ul li:nth-child(even) {
  float: right;
- transform: translate(30px);
+ transform: translate(20px);
 }
 
 .timeline-content img {
@@ -386,7 +383,7 @@ li:nth-child(even) .timeline_content {
 .timeline ul li:nth-child(odd)::after,
 .timeline ul li:nth-child(odd)::before {
  transform: translate(50%, -50%);
- right: -30px;
+ right: -20px;
 }
 
 .timeline ul li:nth-child(even)::after,
