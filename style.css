@@ -636,10 +636,15 @@ li:nth-child(even) .timeline_content {
 
 .mark img:last-child {
  position: absolute;
- width: 45vw;
+ width: 300px;
  right: 5px;
  top: 70px;
  float: right;
+}
+@media only screen and (max-width: 500px){
+ .mark img:last-child{
+  width: 150px;
+ }
 }
 
 .mark_text {
