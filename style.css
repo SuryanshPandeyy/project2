@@ -39,7 +39,7 @@ img {
 .title {
  color: #c0762c;
  margin: 35px;
- width: 200px;
+
 }
 
 .title p {
@@ -53,12 +53,12 @@ img {
   cursive;
  letter-spacing: .9px;
  font-weight: lighter;
- font-size: 3vh;
+ font-size: 3vw;
 }
 
 .sign {
  font-family: sign;
- font-size: 8vh;
+ font-size: 6vw;
 }
 
 img.first_img {
